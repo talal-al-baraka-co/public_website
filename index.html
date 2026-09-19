@@ -1,86 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#1f6b4a">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <title>Talal Al Baraka Co. — Wholesale Dammam</title>
+  <meta name="theme-color" content="#0b3d2e">
+  <title>شركة طلال البركة التجارية — جملة الدمام</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div class="topstrip">
+    <span id="stripCity">الدمام، المنطقة الشرقية</span>
+    <a id="stripPhone" href="tel:+966582014443">+966 58 201 4443</a>
+    <button type="button" class="lang" id="langBtn">English</button>
+  </div>
   <header class="top">
     <div class="brand">
-      <strong id="companyName">Talal Al Baraka Co.</strong>
-      <span id="companyCity">Dammam, Saudi Arabia</span>
+      <strong id="companyName">شركة طلال البركة التجارية</strong>
+      <span id="companyTag">توزيع مشروبات ووجبات خفيفة جملة — الدمام</span>
     </div>
     <nav>
-      <a href="#catalog" data-i18n="navCatalog">Catalog</a>
-      <a href="#how" data-i18n="navHow">How to order</a>
-      <a href="#checkout" data-i18n="navCheckout">Checkout</a>
+      <a href="#catalog" data-i18n="navCatalog">المنتجات</a>
+      <a href="#how" data-i18n="navHow">طريقة الطلب</a>
+      <a href="#checkout" data-i18n="navCheckout">إتمام الطلب</a>
     </nav>
     <div class="top-actions">
-      <button type="button" class="lang" id="langBtn">عربي</button>
-      <button type="button" class="cart-btn" id="cartBtn">
-        <span data-i18n="cart">Cart</span>
-        <b id="cartCount">0</b>
-      </button>
+      <a class="btn ghost" id="callBtn" href="tel:+966582014443" data-i18n="call">اتصال</a>
+      <button type="button" class="cart-btn" id="cartBtn"><span data-i18n="cart">السلة</span><b id="cartCount">0</b></button>
     </div>
   </header>
   <section class="hero">
-    <p class="eyebrow" data-i18n="eyebrow">B2B wholesale · Eastern Province</p>
-    <h1 data-i18n="heroTitle">Soft drinks, water, and snacks for shops and restaurants.</h1>
-    <p class="lede" data-i18n="heroLede">Order by the carton from Dammam. Update prices in one file. Buyers pick items, send an order, and pay by invoice or bank transfer.</p>
+    <p class="eyebrow" data-i18n="eyebrow">تجارة وتوزيع جملة · المنطقة الشرقية</p>
+    <h1 data-i18n="heroTitle">شريككم لتوريد المشروبات والوجبات الخفيفة للمحلات والمطاعم.</h1>
+    <p class="lede" data-i18n="heroLede">توريد بالكرتون من الدمام. أسعار جملة، توصيل حسب الاتفاق، والدفع عند الاستلام أو تحويل بنكي بعد الفاتورة.</p>
     <div class="hero-actions">
-      <a href="#catalog" class="btn primary" data-i18n="browse">Browse catalog</a>
-      <a href="#checkout" class="btn ghost" data-i18n="goCheckout">Go to checkout</a>
+      <a href="#catalog" class="btn primary" data-i18n="browse">عرض المنتجات</a>
+      <a id="waHero" class="btn ghost" href="https://wa.me/966582014443" data-i18n="whatsapp">واتساب</a>
     </div>
+    <ul class="trust">
+      <li data-i18n="trust1">للمحلات والمطاعم والتموين</li>
+      <li data-i18n="trust2">حد أدنى للطلب 500 ريال</li>
+      <li data-i18n="trust3">الدفع عند الاستلام أو تحويل بنكي</li>
+    </ul>
   </section>
   <section id="how" class="how">
-    <h2 data-i18n="howTitle">How it works</h2>
+    <h2 data-i18n="howTitle">طريقة الطلب</h2>
     <ol>
-      <li data-i18n="how1">Choose cartons from the catalog. Minimum quantities are listed on each item.</li>
-      <li data-i18n="how2">Enter your company details at checkout. No card numbers are collected on this site.</li>
-      <li data-i18n="how3">Send the order by WhatsApp or email. We confirm stock, VAT invoice, and delivery in Dammam.</li>
+      <li data-i18n="how1">اختاروا الكراتين من القائمة حسب احتياج محلكم.</li>
+      <li data-i18n="how2">أدخلوا بيانات المنشأة وعنوان التوصيل في الدمام.</li>
+      <li data-i18n="how3">أرسلوا الطلب واتساب. نأكد التوفر ونرسل فاتورة الضريبة.</li>
     </ol>
   </section>
   <section id="catalog" class="catalog">
     <div class="catalog-head">
-      <h2 data-i18n="catalogTitle">Available products</h2>
+      <h2 data-i18n="catalogTitle">المنتجات المتوفرة</h2>
       <div class="filters">
-        <input type="search" id="search" placeholder="Search products">
+        <input type="search" id="search" placeholder="بحث">
         <select id="category"></select>
       </div>
     </div>
-    <p class="hint" data-i18n="updateHint">To change prices or add items, edit products.json and refresh. No code changes needed.</p>
     <div id="grid" class="grid"></div>
   </section>
   <section id="checkout" class="checkout">
-    <h2 data-i18n="checkoutTitle">Checkout</h2>
-    <p class="hint" data-i18n="checkoutHint">This is a secure order form: HTTPS when hosted, no card data stored here. Payment is by bank transfer or invoice after we confirm the order.</p>
+    <h2 data-i18n="checkoutTitle">إتمام الطلب</h2>
+    <p class="hint" data-i18n="checkoutHint">بعد إرسال الطلب نأكد الكمية ونصدر الفاتورة. الدفع عند الاستلام أو تحويل بنكي.</p>
     <div class="checkout-grid">
       <form id="orderForm">
-        <label><span data-i18n="fCompany">Company name</span><input name="company" required></label>
-        <label><span data-i18n="fCr">CR / VAT number</span><input name="cr"></label>
-        <label><span data-i18n="fContact">Contact person</span><input name="contact" required></label>
-        <label><span data-i18n="fPhone">Phone</span><input name="phone" type="tel" required></label>
-        <label><span data-i18n="fEmail">Email</span><input name="email" type="email"></label>
-        <label class="full"><span data-i18n="fAddress">Delivery address (Dammam area)</span><textarea name="address" rows="3" required></textarea></label>
-        <label><span data-i18n="fPay">Payment method</span>
+        <label><span data-i18n="fCompany">اسم المنشأة</span><input name="company" required></label>
+        <label><span data-i18n="fCr">السجل التجاري / الرقم الضريبي</span><input name="cr"></label>
+        <label><span data-i18n="fContact">اسم المسؤول</span><input name="contact" required></label>
+        <label><span data-i18n="fPhone">الجوال</span><input name="phone" type="tel" required></label>
+        <label class="full"><span data-i18n="fAddress">عنوان التوصيل في الدمام</span><textarea name="address" rows="3" required></textarea></label>
+        <label><span data-i18n="fPay">طريقة الدفع</span>
           <select name="pay">
-            <option value="Bank transfer">Bank transfer after invoice</option>
-            <option value="Cash on delivery">Cash on delivery</option>
-            <option value="Account terms">Existing account terms</option>
+            <option value="Cash on delivery">الدفع عند الاستلام</option>
+            <option value="Bank transfer after invoice">تحويل بنكي بعد الفاتورة</option>
           </select>
         </label>
-        <label class="full"><span data-i18n="fNotes">Notes</span><textarea name="notes" rows="2"></textarea></label>
+        <label class="full"><span data-i18n="fNotes">ملاحظات</span><textarea name="notes" rows="2"></textarea></label>
         <p class="min-note" id="minNote"></p>
         <div class="form-actions">
-          <button type="submit" class="btn primary" data-i18n="sendWa">Send order on WhatsApp</button>
-          <button type="button" class="btn ghost" id="emailBtn" data-i18n="sendEmail">Send by email</button>
+          <button type="submit" class="btn primary" data-i18n="sendWa">إرسال الطلب واتساب</button>
         </div>
       </form>
       <aside class="summary" id="summary"></aside>
@@ -89,21 +91,21 @@
   <div class="drawer" id="drawer" hidden>
     <div class="drawer-panel">
       <div class="drawer-head">
-        <h3 data-i18n="cart">Cart</h3>
+        <h3 data-i18n="cart">السلة</h3>
         <button type="button" id="closeCart">×</button>
       </div>
       <div id="cartLines"></div>
-      <a href="#checkout" class="btn primary full" id="toCheckout" data-i18n="goCheckout">Go to checkout</a>
+      <a href="#checkout" class="btn primary full" id="toCheckout" data-i18n="goCheckout">إتمام الطلب</a>
     </div>
   </div>
   <nav class="mobile-bar" aria-label="Mobile">
-    <a href="#catalog" data-i18n="navCatalog">Catalog</a>
-    <button type="button" id="cartBtnMobile" data-i18n="cart">Cart</button>
-    <a href="#checkout" data-i18n="navCheckout">Checkout</a>
+    <a href="#catalog" data-i18n="navCatalog">المنتجات</a>
+    <button type="button" id="cartBtnMobile" data-i18n="cart">السلة</button>
+    <a href="#checkout" data-i18n="navCheckout">الطلب</a>
   </nav>
   <footer>
     <p id="footerLine"></p>
-    <p data-i18n="footerNote">Prices are wholesale, exclude VAT unless stated, and can change.</p>
+    <p><a id="footerPhone" href="tel:+966582014443">+966 58 201 4443</a> · <a id="footerWa" href="https://wa.me/966582014443">WhatsApp</a></p>
   </footer>
   <script src="script.js"></script>
 </body>
