@@ -1,1 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480"><rect width="640" height="480" fill="#efe8d8"/><rect x="170" y="58" width="300" height="360" rx="10" fill="#c4b089"/><rect x="184" y="72" width="272" height="332" rx="6" fill="#0277bd"/><text x="320" y="230" text-anchor="middle" font-family="Tahoma,Arial" font-size="44" font-weight="700" fill="#fff">مياه</text><text x="320" y="270" text-anchor="middle" font-family="Tahoma,Arial" font-size="22" fill="#fff">330 مل · 24</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220">
+  <rect width="320" height="220" rx="8" fill="#eef7fb"/>
+  <g transform="translate(70,28)">
+    <rect x="22" y="22" width="40" height="124" rx="12" fill="#9fd7ea"/>
+    <rect x="26" y="48" width="32" height="70" rx="6" fill="#e8f7fc"/>
+    <rect x="84" y="12" width="48" height="144" rx="14" fill="#7ec8e3"/>
+    <rect x="90" y="42" width="36" height="84" rx="8" fill="#f3fbfe"/>
+    <ellipse cx="108" cy="16" rx="16" ry="7" fill="#1a6f8a"/>
+    <rect x="148" y="22" width="40" height="124" rx="12" fill="#9fd7ea"/>
+  </g>
+  <text x="160" y="205" text-anchor="middle" font-size="13" font-family="Arial" fill="#6B152E">330ml · 24</text>
+</svg>
