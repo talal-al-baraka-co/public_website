@@ -79,6 +79,7 @@ nav a:hover { color: var(--green); }
 h1 { font-size: clamp(1.55rem, 3.6vw, 2.55rem); line-height: 1.25; margin-bottom: 1rem; }
 h2 { font-size: 1.45rem; margin-bottom: 1rem; }
 .lede { color: #f0dce3; font-size: 1.05rem; }
+.hero-close { margin-top: 1.15rem; max-width: 40rem; }
 .hero-actions { display: flex; gap: .6rem; margin-top: 1.4rem; flex-wrap: wrap; }
 .hero .btn.ghost { color: #fff; border-color: rgba(255,255,255,.35); }
 .trust { display: flex; flex-wrap: wrap; gap: .55rem; list-style: none; margin-top: 1.5rem; font-size: .88rem; }
