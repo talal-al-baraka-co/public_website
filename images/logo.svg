@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+  <rect width="80" height="80" rx="16" fill="#0b3d2e"/>
+  <rect x="4" y="4" width="72" height="72" rx="13" fill="none" stroke="#c4a35a" stroke-width="2.2"/>
+  <text x="40" y="36" text-anchor="middle" font-family="Georgia, serif" font-size="26" font-weight="700" fill="#f4efe2">ط ب</text>
+  <text x="40" y="58" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" letter-spacing="1.2" fill="#c4a35a">البركة</text>
+</svg>
