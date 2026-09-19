@@ -3,8 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#0b3d2e">
-  <title>شركة طلال البركة التجارية — جملة الدمام</title>
+  <meta name="theme-color" content="#06281e">
+  <meta name="description" content="شركة طلال البركة التجارية — توريد جملة للمشروبات والمياه والوجبات الخفيفة في الدمام والمنطقة الشرقية.">
+  <title>شركة طلال البركة التجارية | جملة مشروبات ومواد غذائية — الدمام</title>
+  <link rel="icon" href="images/logo.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -12,38 +14,60 @@
 </head>
 <body>
   <div class="topstrip">
-    <span id="stripCity">الدمام، المنطقة الشرقية</span>
-    <a id="stripPhone" href="tel:+966582014443">+966 58 201 4443</a>
-    <button type="button" class="lang" id="langBtn">English</button>
+    <div class="topstrip-inner">
+      <span id="stripCity">الدمام، المنطقة الشرقية — المملكة العربية السعودية</span>
+      <div class="topstrip-links">
+        <a id="stripPhone" href="tel:+966582014443">+966 58 201 4443</a>
+        <a id="stripWa" href="https://wa.me/966582014443">WhatsApp</a>
+        <button type="button" class="lang" id="langBtn">English</button>
+      </div>
+    </div>
   </div>
   <header class="top">
-    <div class="brand">
-      <strong id="companyName">شركة طلال البركة التجارية</strong>
-      <span id="companyTag">توزيع مشروبات ووجبات خفيفة جملة — الدمام</span>
-    </div>
+    <a class="brand" href="#">
+      <img src="images/logo.svg" alt="" class="logo">
+      <span class="brand-text">
+        <strong id="companyName">شركة طلال البركة التجارية</strong>
+        <em id="companyNameEn">Talal Al Baraka Trading Co.</em>
+        <span id="companyTag">توزيع جملة — مشروبات، مياه، ووجبات خفيفة</span>
+      </span>
+    </a>
     <nav>
       <a href="#catalog" data-i18n="navCatalog">المنتجات</a>
       <a href="#how" data-i18n="navHow">طريقة الطلب</a>
+      <a href="#about" data-i18n="navAbout">عن الشركة</a>
       <a href="#checkout" data-i18n="navCheckout">إتمام الطلب</a>
     </nav>
     <div class="top-actions">
       <a class="btn ghost" id="callBtn" href="tel:+966582014443" data-i18n="call">اتصال</a>
-      <button type="button" class="cart-btn" id="cartBtn"><span data-i18n="cart">السلة</span><b id="cartCount">0</b></button>
+      <a class="btn primary" id="waTop" href="https://wa.me/966582014443" data-i18n="whatsapp">واتساب</a>
+      <button type="button" class="cart-btn" id="cartBtn">
+        <span data-i18n="cart">السلة</span>
+        <b id="cartCount">0</b>
+      </button>
     </div>
   </header>
   <section class="hero">
-    <p class="eyebrow" data-i18n="eyebrow">تجارة وتوزيع جملة · المنطقة الشرقية</p>
-    <h1 data-i18n="heroTitle">شريككم لتوريد المشروبات والوجبات الخفيفة للمحلات والمطاعم.</h1>
-    <p class="lede" data-i18n="heroLede">توريد بالكرتون من الدمام. أسعار جملة، توصيل حسب الاتفاق، والدفع عند الاستلام أو تحويل بنكي بعد الفاتورة.</p>
-    <div class="hero-actions">
-      <a href="#catalog" class="btn primary" data-i18n="browse">عرض المنتجات</a>
-      <a id="waHero" class="btn ghost" href="https://wa.me/966582014443" data-i18n="whatsapp">واتساب</a>
+    <div class="hero-copy">
+      <p class="eyebrow" data-i18n="eyebrow">شركة تجارية — توريد جملة في المنطقة الشرقية</p>
+      <h1 data-i18n="heroTitle">توريد المشروبات والمياه والوجبات الخفيفة لمحلاتكم ومطاعمكم من الدمام.</h1>
+      <p class="lede" data-i18n="heroLede">أسعار جملة بالكرتون. نخدم محلات التجزئة والمطاعم والتموين والكافيهات. الدفع عند الاستلام أو تحويل بنكي بعد الفاتورة.</p>
+      <div class="hero-actions">
+        <a href="#catalog" class="btn primary" data-i18n="browse">عرض المنتجات</a>
+        <a id="waHero" class="btn ghost" href="https://wa.me/966582014443" data-i18n="whatsapp">اطلب عبر واتساب</a>
+      </div>
     </div>
     <ul class="trust">
       <li data-i18n="trust1">للمحلات والمطاعم والتموين</li>
       <li data-i18n="trust2">حد أدنى للطلب 500 ريال</li>
       <li data-i18n="trust3">الدفع عند الاستلام أو تحويل بنكي</li>
+      <li data-i18n="trust4">فاتورة ضريبة بعد تأكيد الطلب</li>
     </ul>
+  </section>
+  <section class="cats" id="cats">
+    <a href="#catalog" data-cat="soda"><span data-i18n="catSoda">مشروبات غازية</span><small data-i18n="catSodaSub">كولا، بيبسي، سفن أب</small></a>
+    <a href="#catalog" data-cat="water"><span data-i18n="catWater">مياه معدنية</span><small data-i18n="catWaterSub">330 مل و 1.5 لتر</small></a>
+    <a href="#catalog" data-cat="chips"><span data-i18n="catChips">شيبس ووجبات خفيفة</span><small data-i18n="catChipsSub">ملح، حار، ذرة</small></a>
   </section>
   <section id="how" class="how">
     <h2 data-i18n="howTitle">طريقة الطلب</h2>
@@ -55,7 +79,7 @@
   </section>
   <section id="catalog" class="catalog">
     <div class="catalog-head">
-      <h2 data-i18n="catalogTitle">المنتجات المتوفرة</h2>
+      <h2 data-i18n="catalogTitle">قائمة الجملة</h2>
       <div class="filters">
         <input type="search" id="search" placeholder="بحث">
         <select id="category"></select>
@@ -63,19 +87,28 @@
     </div>
     <div id="grid" class="grid"></div>
   </section>
+  <section id="about" class="about">
+    <h2 data-i18n="aboutTitle">عن الشركة</h2>
+    <p data-i18n="aboutText">شركة طلال البركة التجارية موزّع جملة في الدمام للمنتجات سريعة الحركة: المشروبات الغازية، المياه، والشيبس. نورد بالكرتون للمحلات والمطاعم ونقاط التموين في المنطقة الشرقية، مع تأكيد التوفر قبل التوريد.</p>
+    <ul class="about-points">
+      <li data-i18n="about1">توريد من الدمام حسب الاتفاق على الموعد والكمية.</li>
+      <li data-i18n="about2">الدفع: عند الاستلام نقداً، أو تحويل بنكي بعد إصدار الفاتورة.</li>
+      <li data-i18n="about3">للتواصل والمندوب: +966 58 201 4443</li>
+    </ul>
+  </section>
   <section id="checkout" class="checkout">
     <h2 data-i18n="checkoutTitle">إتمام الطلب</h2>
-    <p class="hint" data-i18n="checkoutHint">بعد إرسال الطلب نأكد الكمية ونصدر الفاتورة. الدفع عند الاستلام أو تحويل بنكي.</p>
+    <p class="hint" data-i18n="checkoutHint">بعد إرسال الطلب نأكد الكمية المتاحة ونصدر الفاتورة. الدفع عند الاستلام أو تحويل بنكي بعد الفاتورة فقط. لا يُطلب رقم بطاقة.</p>
     <div class="checkout-grid">
       <form id="orderForm">
-        <label><span data-i18n="fCompany">اسم المنشأة</span><input name="company" required></label>
+        <label><span data-i18n="fCompany">اسم المنشأة</span><input name="company" required autocomplete="organization"></label>
         <label><span data-i18n="fCr">السجل التجاري / الرقم الضريبي</span><input name="cr"></label>
-        <label><span data-i18n="fContact">اسم المسؤول</span><input name="contact" required></label>
-        <label><span data-i18n="fPhone">الجوال</span><input name="phone" type="tel" required></label>
+        <label><span data-i18n="fContact">اسم المسؤول</span><input name="contact" required autocomplete="name"></label>
+        <label><span data-i18n="fPhone">الجوال</span><input name="phone" type="tel" required autocomplete="tel"></label>
         <label class="full"><span data-i18n="fAddress">عنوان التوصيل في الدمام</span><textarea name="address" rows="3" required></textarea></label>
         <label><span data-i18n="fPay">طريقة الدفع</span>
           <select name="pay">
-            <option value="Cash on delivery">الدفع عند الاستلام</option>
+            <option value="Cash on delivery" selected>الدفع عند الاستلام</option>
             <option value="Bank transfer after invoice">تحويل بنكي بعد الفاتورة</option>
           </select>
         </label>
@@ -92,7 +125,7 @@
     <div class="drawer-panel">
       <div class="drawer-head">
         <h3 data-i18n="cart">السلة</h3>
-        <button type="button" id="closeCart">×</button>
+        <button type="button" id="closeCart" aria-label="Close">×</button>
       </div>
       <div id="cartLines"></div>
       <a href="#checkout" class="btn primary full" id="toCheckout" data-i18n="goCheckout">إتمام الطلب</a>
@@ -101,10 +134,17 @@
   <nav class="mobile-bar" aria-label="Mobile">
     <a href="#catalog" data-i18n="navCatalog">المنتجات</a>
     <button type="button" id="cartBtnMobile" data-i18n="cart">السلة</button>
-    <a href="#checkout" data-i18n="navCheckout">الطلب</a>
+    <a href="https://wa.me/966582014443" id="waMobile" data-i18n="whatsapp">واتساب</a>
   </nav>
   <footer>
-    <p id="footerLine"></p>
+    <div class="foot-brand">
+      <img src="images/logo.svg" alt="" class="logo sm">
+      <div>
+        <strong id="footerName">شركة طلال البركة التجارية</strong>
+        <p id="footerLine">الدمام، المنطقة الشرقية</p>
+      </div>
+    </div>
+    <p data-i18n="payNote">الدفع: عند الاستلام أو تحويل بنكي بعد الفاتورة.</p>
     <p><a id="footerPhone" href="tel:+966582014443">+966 58 201 4443</a> · <a id="footerWa" href="https://wa.me/966582014443">WhatsApp</a></p>
   </footer>
   <script src="script.js"></script>

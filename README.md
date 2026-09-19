@@ -1,18 +1,33 @@
-# Talal Al Baraka Trading Co. website
+# شركة طلال البركة التجارية
 
-Public site: https://talal-al-baraka-co.github.io/public_website/
+الموقع: https://talal-al-baraka-co.github.io/public_website/
 
-## Change prices or add a product
+هذه الصفحة للعملاء. تعليمات التحديث هنا في غيت هب فقط.
 
-1. Open `products.json` on GitHub.
-2. Edit `price`, `inStock` (`true`/`false`), or `minQty`.
-3. To add a product, copy one block and give it a new `id`.
+## تغيير سعر أو إضافة صنف
+
+افتح `products.json` من غيت هب ثم أيقونة القلم.
+
+- السعر: `"price": 42`
+- متوفر: `"inStock": true` أو `false`
+- الحد الأدنى للكراتين: `"minQty": 5`
+
+لإضافة صنف انسخ سطراً موجوداً وغيّر `id` إلى اسم إنجليزي قصير بدون مسافات مثل `mira-330-24`.
+
+احفظ بـ Commit changes.
+
+## رفع صورة للمنتج
+
+1. صوّر الكرتون.
+2. سمّ الملف بنفس `id` المنتج: `coke-330-24.jpg`
+3. من مجلد `images` في غيت هب: Add file → Upload files.
 4. Commit.
 
-## Change a product photo
+الموقع يبحث تلقائياً عن `images/رقم-الصنف.jpg` ثم `.png` ثم الصورة الحالية. إذا كان الاسم مطابقاً لـ `id` لا تحتاج تعديل القائمة.
 
-1. Take a photo of the carton.
-2. Name it like the product id, for example `coke-330-24.jpg`.
-3. Open the `images` folder → Add file → Upload files.
-4. In `products.json` set that product `image` to `images/coke-330-24.jpg`.
-5. Commit.
+## الجوال وواتساب
+
+في أعلى `products.json`:
+
+- `phoneDisplay`: `+966 58 201 4443`
+- `whatsapp`: `966582014443` بدون + أو مسافات

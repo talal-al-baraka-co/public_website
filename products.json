@@ -2,10 +2,10 @@
   "company": {
     "name": "Talal Al Baraka Trading Co.",
     "nameAr": "شركة طلال البركة التجارية",
-    "tagline": "Wholesale beverages & snacks — Dammam",
-    "taglineAr": "توزيع مشروبات ووجبات خفيفة جملة — الدمام",
-    "city": "Dammam, Eastern Province",
-    "cityAr": "الدمام، المنطقة الشرقية",
+    "tagline": "Wholesale supply — drinks, water and snacks",
+    "taglineAr": "توزيع جملة — مشروبات، مياه، ووجبات خفيفة",
+    "city": "Dammam, Eastern Province, Saudi Arabia",
+    "cityAr": "الدمام، المنطقة الشرقية — المملكة العربية السعودية",
     "phone": "+966582014443",
     "phoneDisplay": "+966 58 201 4443",
     "whatsapp": "966582014443",
@@ -19,15 +19,15 @@
     { "id": "chips", "name": "Chips & snacks", "nameAr": "شيبس ووجبات خفيفة" }
   ],
   "products": [
-    {"id":"coke-330-24","name":"Coca-Cola 330ml","nameAr":"كوكاكولا 330 مل","category":"soda","pack":"24 cans / carton","packAr":"24 علبة / كرتون","price":42,"minQty":5,"inStock":true,"image":"images/coke-330-24.svg"},
-    {"id":"coke-1-5-6","name":"Coca-Cola 1.5L","nameAr":"كوكاكولا 1.5 لتر","category":"soda","pack":"6 bottles / pack","packAr":"6 عبوات / باكت","price":28.5,"minQty":8,"inStock":true,"image":"images/coke-1-5-6.svg"},
-    {"id":"pepsi-330-24","name":"Pepsi 330ml","nameAr":"بيبسي 330 مل","category":"soda","pack":"24 cans / carton","packAr":"24 علبة / كرتون","price":40,"minQty":5,"inStock":true,"image":"images/pepsi-330-24.svg"},
-    {"id":"pepsi-1-5-6","name":"Pepsi 1.5L","nameAr":"بيبسي 1.5 لتر","category":"soda","pack":"6 bottles / pack","packAr":"6 عبوات / باكت","price":27,"minQty":8,"inStock":true,"image":"images/pepsi-1-5-6.svg"},
-    {"id":"7up-330-24","name":"7UP 330ml","nameAr":"سفن أب 330 مل","category":"soda","pack":"24 cans / carton","packAr":"24 علبة / كرتون","price":38,"minQty":5,"inStock":true,"image":"images/7up-330-24.svg"},
-    {"id":"water-330-24","name":"Bottled water 330ml","nameAr":"مياه معدنية 330 مل","category":"water","pack":"24 bottles / carton","packAr":"24 عبوة / كرتون","price":12,"minQty":10,"inStock":true,"image":"images/water-330-24.svg"},
-    {"id":"water-1-5-12","name":"Bottled water 1.5L","nameAr":"مياه معدنية 1.5 لتر","category":"water","pack":"12 bottles / pack","packAr":"12 عبوة / باكت","price":14.5,"minQty":10,"inStock":true,"image":"images/water-1-5-12.svg"},
-    {"id":"lays-salt-20","name":"Potato chips — salted","nameAr":"شيبس بطاطس — ملح","category":"chips","pack":"20 bags / carton","packAr":"20 كيس / كرتون","price":36,"minQty":4,"inStock":true,"image":"images/lays-salt-20.svg"},
-    {"id":"lays-chili-20","name":"Potato chips — chili","nameAr":"شيبس بطاطس — حار","category":"chips","pack":"20 bags / carton","packAr":"20 كيس / كرتون","price":36,"minQty":4,"inStock":true,"image":"images/lays-chili-20.svg"},
-    {"id":"corn-cheese-20","name":"Corn chips — cheese","nameAr":"شيبس ذرة — جبن","category":"chips","pack":"20 bags / carton","packAr":"20 كيس / كرتون","price":34,"minQty":4,"inStock":false,"image":"images/corn-cheese-20.svg"}
+    {"id":"coke-330-24","name":"Coca-Cola 330ml","nameAr":"كوكاكولا 330 مل","category":"soda","pack":"24 cans / carton","packAr":"24 علبة / كرتون","price":42,"minQty":5,"inStock":true},
+    {"id":"coke-1-5-6","name":"Coca-Cola 1.5L","nameAr":"كوكاكولا 1.5 لتر","category":"soda","pack":"6 bottles / pack","packAr":"6 عبوات / باكت","price":28.5,"minQty":8,"inStock":true},
+    {"id":"pepsi-330-24","name":"Pepsi 330ml","nameAr":"بيبسي 330 مل","category":"soda","pack":"24 cans / carton","packAr":"24 علبة / كرتون","price":40,"minQty":5,"inStock":true},
+    {"id":"pepsi-1-5-6","name":"Pepsi 1.5L","nameAr":"بيبسي 1.5 لتر","category":"soda","pack":"6 bottles / pack","packAr":"6 عبوات / باكت","price":27,"minQty":8,"inStock":true},
+    {"id":"7up-330-24","name":"7UP 330ml","nameAr":"سفن أب 330 مل","category":"soda","pack":"24 cans / carton","packAr":"24 علبة / كرتون","price":38,"minQty":5,"inStock":true},
+    {"id":"water-330-24","name":"Bottled water 330ml","nameAr":"مياه معدنية 330 مل","category":"water","pack":"24 bottles / carton","packAr":"24 عبوة / كرتون","price":12,"minQty":10,"inStock":true},
+    {"id":"water-1-5-12","name":"Bottled water 1.5L","nameAr":"مياه معدنية 1.5 لتر","category":"water","pack":"12 bottles / pack","packAr":"12 عبوة / باكت","price":14.5,"minQty":10,"inStock":true},
+    {"id":"lays-salt-20","name":"Potato chips — salted","nameAr":"شيبس بطاطس — ملح","category":"chips","pack":"20 bags / carton","packAr":"20 كيس / كرتون","price":36,"minQty":4,"inStock":true},
+    {"id":"lays-chili-20","name":"Potato chips — chili","nameAr":"شيبس بطاطس — حار","category":"chips","pack":"20 bags / carton","packAr":"20 كيس / كرتون","price":36,"minQty":4,"inStock":true},
+    {"id":"corn-cheese-20","name":"Corn chips — cheese","nameAr":"شيبس ذرة — جبن","category":"chips","pack":"20 bags / carton","packAr":"20 كيس / كرتون","price":34,"minQty":4,"inStock":false}
   ]
 }
