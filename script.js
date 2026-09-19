@@ -1,59 +1,75 @@
 const I18N = {
-  en: {
-    navCatalog: "Catalog", navHow: "How to order", navCheckout: "Checkout", cart: "Cart",
-    eyebrow: "B2B wholesale · Eastern Province",
-    heroTitle: "Soft drinks, water, and snacks for shops and restaurants.",
-    heroLede: "Order by the carton from Dammam.",
-    browse: "Browse catalog", goCheckout: "Go to checkout", howTitle: "How it works",
-    how1: "Choose cartons from the catalog.", how2: "Enter company details. No card numbers on this site.",
-    how3: "Send the order by WhatsApp or email.", catalogTitle: "Available products",
-    updateHint: "Edit products.json to change prices.", checkoutTitle: "Checkout",
-    checkoutHint: "HTTPS order form. Pay by bank transfer or invoice.",
-    fCompany: "Company name", fCr: "CR / VAT number", fContact: "Contact person", fPhone: "Phone",
-    fEmail: "Email", fAddress: "Delivery address (Dammam area)", fPay: "Payment method", fNotes: "Notes",
-    sendWa: "Send order on WhatsApp", sendEmail: "Send by email",
-    footerNote: "Prices are wholesale and exclude VAT unless stated.",
-    all: "All categories", add: "Add", out: "Out of stock", min: "Min", empty: "Cart is empty.",
-    subtotal: "Subtotal", vat: "VAT 15%", total: "Total", minOrder: "Minimum order"
-  },
   ar: {
     navCatalog: "المنتجات", navHow: "طريقة الطلب", navCheckout: "إتمام الطلب", cart: "السلة",
-    eyebrow: "بيع جملة · المنطقة الشرقية",
-    heroTitle: "مشروبات ومياه ووجبات خفيفة للمحلات والمطاعم.",
-    heroLede: "اطلب بالكرتون من الدمام.",
-    browse: "عرض المنتجات", goCheckout: "إتمام الطلب", howTitle: "طريقة العمل",
-    how1: "اختر الكراتين.", how2: "أدخل بيانات المنشأة.", how3: "أرسل الطلب واتساب أو إيميل.",
-    catalogTitle: "المنتجات المتوفرة", updateHint: "عدّل products.json لتغيير الأسعار.", checkoutTitle: "إتمام الطلب",
-    checkoutHint: "نموذج طلب آمن. الدفع تحويل أو فاتورة.",
-    fCompany: "اسم المنشأة", fCr: "السجل / الرقم الضريبي", fContact: "اسم المسؤول", fPhone: "الجوال",
-    fEmail: "البريد", fAddress: "عنوان التوصيل", fPay: "طريقة الدفع", fNotes: "ملاحظات",
-    sendWa: "إرسال واتساب", sendEmail: "إرسال بالإيميل",
-    footerNote: "الأسعار جملة وغير شاملة الضريبة إلا إذا ذكر خلاف ذلك.",
+    call: "اتصال", whatsapp: "واتساب",
+    eyebrow: "تجارة وتوزيع جملة · المنطقة الشرقية",
+    heroTitle: "شريككم لتوريد المشروبات والوجبات الخفيفة للمحلات والمطاعم.",
+    heroLede: "توريد بالكرتون من الدمام. أسعار جملة، توصيل حسب الاتفاق، والدفع عند الاستلام أو تحويل بنكي بعد الفاتورة.",
+    browse: "عرض المنتجات", goCheckout: "إتمام الطلب",
+    trust1: "للمحلات والمطاعم والتموين", trust2: "حد أدنى للطلب 500 ريال", trust3: "الدفع عند الاستلام أو تحويل بنكي",
+    howTitle: "طريقة الطلب",
+    how1: "اختاروا الكراتين من القائمة حسب احتياج محلكم.",
+    how2: "أدخلوا بيانات المنشأة وعنوان التوصيل في الدمام.",
+    how3: "أرسلوا الطلب واتساب. نأكد التوفر ونرسل فاتورة الضريبة.",
+    catalogTitle: "المنتجات المتوفرة", checkoutTitle: "إتمام الطلب",
+    checkoutHint: "بعد إرسال الطلب نأكد الكمية ونصدر الفاتورة. الدفع عند الاستلام أو تحويل بنكي.",
+    fCompany: "اسم المنشأة", fCr: "السجل التجاري / الرقم الضريبي", fContact: "اسم المسؤول",
+    fPhone: "الجوال", fAddress: "عنوان التوصيل في الدمام", fPay: "طريقة الدفع", fNotes: "ملاحظات",
+    sendWa: "إرسال الطلب واتساب",
     all: "كل التصنيفات", add: "إضافة", out: "غير متوفر", min: "الحد", empty: "السلة فارغة.",
-    subtotal: "المجموع", vat: "ضريبة 15%", total: "الإجمالي", minOrder: "حد أدنى للطلب"
+    subtotal: "المجموع", vat: "ضريبة 15%", total: "الإجمالي", minOrder: "حد أدنى للطلب",
+    payCod: "الدفع عند الاستلام", payBank: "تحويل بنكي بعد الفاتورة"
+  },
+  en: {
+    navCatalog: "Catalog", navHow: "How to order", navCheckout: "Checkout", cart: "Cart",
+    call: "Call", whatsapp: "WhatsApp",
+    eyebrow: "Wholesale trading · Eastern Province",
+    heroTitle: "Your partner for beverages and snacks to shops and restaurants.",
+    heroLede: "Carton supply from Dammam. Cash on delivery or bank transfer after invoice.",
+    browse: "Browse products", goCheckout: "Checkout",
+    trust1: "For shops, restaurants, and catering", trust2: "Minimum order SAR 500", trust3: "COD or bank transfer",
+    howTitle: "How to order", how1: "Choose cartons from the list.", how2: "Enter company details and Dammam address.", how3: "Send the order on WhatsApp.",
+    catalogTitle: "Available products", checkoutTitle: "Checkout",
+    checkoutHint: "We confirm quantity and issue the invoice. Pay cash on delivery or by bank transfer.",
+    fCompany: "Company name", fCr: "CR / VAT number", fContact: "Contact person",
+    fPhone: "Phone", fAddress: "Delivery address in Dammam", fPay: "Payment method", fNotes: "Notes",
+    sendWa: "Send order on WhatsApp",
+    all: "All categories", add: "Add", out: "Out of stock", min: "Min", empty: "Cart is empty.",
+    subtotal: "Subtotal", vat: "VAT 15%", total: "Total", minOrder: "Minimum order",
+    payCod: "Cash on delivery", payBank: "Bank transfer after invoice"
   }
 };
-let lang = "en";
+let lang = "ar";
 let data = null;
 const cart = JSON.parse(localStorage.getItem("tab-cart") || "{}");
 const $ = (id) => document.getElementById(id);
+const t = (key) => I18N[lang][key];
+const productName = (p) => lang === "ar" ? p.nameAr : p.name;
+const packName = (p) => lang === "ar" ? p.packAr : p.pack;
 function money(n) {
   return new Intl.NumberFormat(lang === "ar" ? "ar-SA" : "en-SA", { style: "currency", currency: "SAR" }).format(n);
 }
-function t(key) { return I18N[lang][key]; }
-function productName(p) { return lang === "ar" ? p.nameAr : p.name; }
-function packName(p) { return lang === "ar" ? p.packAr : p.pack; }
 function applyLang() {
   document.documentElement.lang = lang;
   document.documentElement.dir = lang === "ar" ? "rtl" : "ltr";
   document.querySelectorAll("[data-i18n]").forEach((el) => { el.textContent = t(el.dataset.i18n); });
   $("langBtn").textContent = lang === "ar" ? "English" : "عربي";
+  const pay = document.querySelector("select[name=pay]");
+  if (pay && pay.options.length >= 2) { pay.options[0].textContent = t("payCod"); pay.options[1].textContent = t("payBank"); }
   if (data) {
-    $("companyName").textContent = lang === "ar" ? data.company.nameAr : data.company.name;
-    $("companyCity").textContent = lang === "ar" ? data.company.cityAr : data.company.city;
-    $("search").placeholder = lang === "ar" ? "بحث" : "Search products";
+    const c = data.company;
+    $("companyName").textContent = lang === "ar" ? c.nameAr : c.name;
+    $("companyTag").textContent = lang === "ar" ? c.taglineAr : c.tagline;
+    $("stripCity").textContent = lang === "ar" ? c.cityAr : c.city;
+    $("search").placeholder = lang === "ar" ? "بحث" : "Search";
+    const tel = `tel:${c.phone}`;
+    const wa = `https://wa.me/${c.whatsapp}`;
+    $("stripPhone").href = tel; $("stripPhone").textContent = c.phoneDisplay;
+    $("callBtn").href = tel; $("waHero").href = wa;
+    $("footerPhone").href = tel; $("footerPhone").textContent = c.phoneDisplay; $("footerWa").href = wa;
+    $("footerLine").textContent = `${lang === "ar" ? c.nameAr : c.name} · ${lang === "ar" ? c.cityAr : c.city}`;
+    renderCategories(); renderGrid(); renderCart(); renderSummary();
   }
-  renderCategories(); renderGrid(); renderCart(); renderSummary();
 }
 function saveCart() { localStorage.setItem("tab-cart", JSON.stringify(cart)); }
 function cartItems() {
@@ -65,7 +81,7 @@ function cartItems() {
 }
 function totals() {
   const items = cartItems();
-  const subtotal = items.reduce((sum, { product, qty }) => sum + product.price * qty, 0);
+  const subtotal = items.reduce((s, { product, qty }) => s + product.price * qty, 0);
   const vat = subtotal * (data?.company.vatRate || 0.15);
   return { items, subtotal, vat, total: subtotal + vat };
 }
@@ -75,19 +91,16 @@ function addToCart(id, qty) {
   cart[id] = Math.max(product.minQty, (cart[id] || 0) + qty);
   saveCart(); renderCart(); renderSummary();
 }
-function saveCartAndRefresh() { saveCart(); renderCart(); renderSummary(); }
 function renderCategories() {
-  const select = $("category");
-  const current = select.value;
+  const select = $("category"); const current = select.value;
   select.innerHTML = `<option value="">${t("all")}</option>`;
   data.categories.forEach((c) => {
-    const opt = document.createElement("option");
-    opt.value = c.id;
-    opt.textContent = lang === "ar" ? c.nameAr : c.name;
-    select.appendChild(opt);
+    const opt = document.createElement("option"); opt.value = c.id;
+    opt.textContent = lang === "ar" ? c.nameAr : c.name; select.appendChild(opt);
   });
   if ([...select.options].some((o) => o.value === current)) select.value = current;
 }
+function imgSrc(p) { return p.image || `images/${p.id}.jpg`; }
 function renderGrid() {
   const q = $("search").value.trim().toLowerCase();
   const cat = $("category").value;
@@ -97,11 +110,14 @@ function renderGrid() {
   });
   $("grid").innerHTML = list.map((p) => `
     <article class="card">
-      <h3>${productName(p)}</h3>
-      <p class="meta">${packName(p)}</p>
-      <p class="price">${money(p.price)}</p>
-      <p class="meta">${t("min")} ${p.minQty}</p>
-      ${p.inStock ? `<div class="row"><input type="number" min="${p.minQty}" value="${p.minQty}" id="qty-${p.id}"><button class="btn primary" data-add="${p.id}">${t("add")}</button></div>` : `<p class="oos">${t("out")}</p>`}
+      <img src="${imgSrc(p)}" alt="${productName(p)}" onerror="this.style.display='none'">
+      <div class="body">
+        <h3>${productName(p)}</h3>
+        <p class="meta">${packName(p)}</p>
+        <p class="price">${money(p.price)}</p>
+        <p class="meta">${t("min")} ${p.minQty}</p>
+        ${p.inStock ? `<div class="row"><input type="number" min="${p.minQty}" value="${p.minQty}" id="qty-${p.id}"><button class="btn primary" data-add="${p.id}">${t("add")}</button></div>` : `<p class="oos">${t("out")}</p>`}
+      </div>
     </article>`).join("");
 }
 function renderCart() {
@@ -119,13 +135,12 @@ function renderSummary() {
     <div class="line"><span>${t("subtotal")}</span><span>${money(subtotal)}</span></div>
     <div class="line"><span>${t("vat")}</span><span>${money(vat)}</span></div>
     <div class="line"><strong>${t("total")}</strong><strong>${money(total)}</strong></div>`;
-  $("footerLine").textContent = `${data.company.name} · ${data.company.city}`;
 }
 function orderText(form) {
   const fd = new FormData(form);
   const { items, subtotal, vat, total } = totals();
   const lines = items.map(({ product, qty }) => `- ${product.name} / ${product.nameAr} | ${qty} x ${product.price.toFixed(2)} SAR`);
-  return [`Wholesale order — ${data.company.name}`, `Company: ${fd.get("company")}`, `CR/VAT: ${fd.get("cr") || "-"}`, `Contact: ${fd.get("contact")} | ${fd.get("phone")}`, `Email: ${fd.get("email") || "-"}`, `Address: ${fd.get("address")}`, `Payment: ${fd.get("pay")}`, `Notes: ${fd.get("notes") || "-"}`, "", "Items:", ...lines, "", `Subtotal: ${subtotal.toFixed(2)} SAR`, `VAT 15%: ${vat.toFixed(2)} SAR`, `Total: ${total.toFixed(2)} SAR`].join("\n");
+  return [`طلب جملة — ${data.company.nameAr}`, `المنشأة: ${fd.get("company")}`, `السجل/الضريبة: ${fd.get("cr") || "-"}`, `المسؤول: ${fd.get("contact")} | ${fd.get("phone")}`, `العنوان: ${fd.get("address")}`, `الدفع: ${fd.get("pay")}`, `ملاحظات: ${fd.get("notes") || "-"}`, "", "الأصناف:", ...lines, "", `المجموع: ${subtotal.toFixed(2)} SAR`, `الضريبة 15%: ${vat.toFixed(2)} SAR`, `الإجمالي: ${total.toFixed(2)} SAR`].join("\n");
 }
 function validateOrder() {
   const { subtotal } = totals();
@@ -133,32 +148,23 @@ function validateOrder() {
   if (subtotal < data.company.minOrderSAR) { alert(`${t("minOrder")} ${money(data.company.minOrderSAR)}`); return false; }
   return true;
 }
-$("langBtn").addEventListener("click", () => { lang = lang === "en" ? "ar" : "en"; applyLang(); });
+$("langBtn").addEventListener("click", () => { lang = lang === "ar" ? "en" : "ar"; applyLang(); });
 $("cartBtn").addEventListener("click", () => { $("drawer").hidden = false; });
 $("cartBtnMobile")?.addEventListener("click", () => { $("drawer").hidden = false; });
 $("closeCart").addEventListener("click", () => { $("drawer").hidden = true; });
 $("toCheckout").addEventListener("click", () => { $("drawer").hidden = true; });
 $("grid").addEventListener("click", (e) => {
-  const id = e.target.dataset.add;
-  if (!id) return;
+  const id = e.target.dataset.add; if (!id) return;
   addToCart(id, Number(document.getElementById(`qty-${id}`).value || 1));
 });
 $("cartLines").addEventListener("click", (e) => {
-  const id = e.target.dataset.remove;
-  if (!id) return;
-  delete cart[id]; saveCartAndRefresh();
+  const id = e.target.dataset.remove; if (!id) return;
+  delete cart[id]; saveCart(); renderCart(); renderSummary();
 });
 $("search").addEventListener("input", renderGrid);
 $("category").addEventListener("change", renderGrid);
 $("orderForm").addEventListener("submit", (e) => {
-  e.preventDefault();
-  if (!validateOrder()) return;
+  e.preventDefault(); if (!validateOrder()) return;
   window.open(`https://wa.me/${data.company.whatsapp}?text=${encodeURIComponent(orderText(e.target))}`, "_blank");
-});
-$("emailBtn").addEventListener("click", () => {
-  if (!validateOrder()) return;
-  const form = $("orderForm");
-  if (!form.reportValidity()) return;
-  window.location.href = `mailto:${data.company.email}?subject=${encodeURIComponent("Wholesale order")}&body=${encodeURIComponent(orderText(form))}`;
 });
 fetch("products.json").then((r) => r.json()).then((json) => { data = json; applyLang(); });
