@@ -4,7 +4,7 @@ const I18N = {
     cart: "السلة", call: "اتصال", whatsapp: "واتساب", map: "الموقع", openMap: "فتح الموقع على خرائط قوقل",
     eyebrow: "RMB · ركن منتجات البركة التجارية",
     heroTitle: "توريد المشروبات والمياه والوجبات الخفيفة لمحلاتكم ومطاعمكم من الدمام.",
-    heroLede: "أسعار جملة بالكرتون من دلة الصناعية. الدفع عند الاستلام أو تحويل بنكي بعد الفاتورة.",
+    heroLede: "مخزون جاهز لمحلكم ومطعمكم في الدمام. اطلبوا اليوم ونرتّب التوريد معكم.",
     browse: "عرض المنتجات", goCheckout: "إتمام الطلب",
     trust1: "للمحلات والمطاعم والتموين", trust2: "حد أدنى للطلب 500 ريال",
     trust3: "الدفع عند الاستلام أو تحويل بنكي", trust4: "فاتورة ضريبة بعد تأكيد الطلب",
@@ -35,7 +35,7 @@ const I18N = {
     cart: "Cart", call: "Call", whatsapp: "WhatsApp", map: "Location", openMap: "Open location on Google Maps",
     eyebrow: "RMB · Rukun Muntajat AlBarkah",
     heroTitle: "Wholesale drinks, water and snacks for shops and restaurants from Dammam.",
-    heroLede: "Carton pricing from Dallah Industrial. Cash on delivery or bank transfer after invoice.",
+    heroLede: "Ready stock for your shop or restaurant in Dammam. Order today and we will arrange the supply with you.",
     browse: "View products", goCheckout: "Checkout",
     trust1: "Shops, restaurants and catering", trust2: "Minimum order SAR 500",
     trust3: "COD or bank transfer", trust4: "VAT invoice after confirmation",
@@ -157,7 +157,7 @@ function renderCategories() {
 
 function imageCandidates(p) {
   const listed = p.image ? [p.image] : [];
-  return [`images/${p.id}.jpg`, `images/${p.id}.jpeg`, `images/${p.id}.png`, `images/${p.id}.webp`, `images/${p.id}.svg`, ...listed];
+  return [`images/${p.id}.svg`, `images/${p.id}.jpg`, `images/${p.id}.jpeg`, `images/${p.id}.png`, `images/${p.id}.webp`, ...listed];
 }
 function bindImageFallback(img, paths) {
   let i = 0;
