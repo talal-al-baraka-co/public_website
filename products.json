@@ -1,17 +1,41 @@
 {
   "company": {
-    "name": "Talal Al Baraka Trading Co.",
-    "nameAr": "شركة طلال البركة التجارية",
-    "tagline": "Wholesale supply — drinks, water and snacks",
+    "brand": "RMB",
+    "name": "Rukun Muntajat AlBarkah",
+    "nameAr": "ركن منتجات البركة التجارية",
+    "tagline": "Wholesale drinks, water and snacks — Dammam",
     "taglineAr": "توزيع جملة — مشروبات، مياه، ووجبات خفيفة",
-    "city": "Dammam, Eastern Province, Saudi Arabia",
-    "cityAr": "الدمام، المنطقة الشرقية — المملكة العربية السعودية",
-    "phone": "+966582014443",
-    "phoneDisplay": "+966 58 201 4443",
-    "whatsapp": "966582014443",
+    "city": "Dallah Industrial, Dammam 32442",
+    "cityAr": "دلة الصناعية، الدمام 32442",
+    "address": "C2XG+P6Q DALLAH SANAHIYAH, Industrial, Dammam 32442, Saudi Arabia",
+    "addressAr": "دلة الصناعية (دلة الصناعية)، الدمام 32442، المملكة العربية السعودية",
+    "maps": "https://maps.app.goo.gl/3ig9UiFticmejckR9?g_st=aw",
+    "phone": "+966537681782",
+    "phoneDisplay": "+966 53 768 1782",
+    "whatsapp": "966537681782",
     "minOrderSAR": 500,
     "vatRate": 0.15,
-    "currency": "SAR"
+    "currency": "SAR",
+    "people": [
+      {
+        "role": "Sales manager",
+        "roleAr": "مندوب مبيعات",
+        "name": "Anas Mohammed",
+        "nameAr": "أنس محمد",
+        "phone": "+966537681782",
+        "phoneDisplay": "+966 53 768 1782",
+        "whatsapp": "966537681782"
+      },
+      {
+        "role": "General manager",
+        "roleAr": "مدير عام",
+        "name": "Mohammed Al Hams",
+        "nameAr": "محمد الهمص",
+        "phone": "+966504957844",
+        "phoneDisplay": "+966 50 495 7844",
+        "whatsapp": "966504957844"
+      }
+    ]
   },
   "categories": [
     { "id": "soda", "name": "Soft drinks", "nameAr": "مشروبات غازية" },
