@@ -40,9 +40,9 @@ body {
   border-bottom: 1px solid var(--line);
 }
 .brand { display: flex; align-items: center; gap: .75rem; text-decoration: none; color: inherit; min-width: 0; }
-.logo { width: 52px; height: 52px; flex-shrink: 0; }
-.logo.sm { width: 40px; height: 40px; }
-.brand-text { display: flex; flex-direction: column; min-width: 0; line-height: 1.25; }
+.logo { width: 148px; height: auto; flex-shrink: 0; display: block; object-fit: contain; }
+.logo.sm { width: 92px; height: auto; }
+.brand-text { display: flex; flex-direction: column; min-width: 0; line-height: 1.25; justify-content: center; }
 .brand strong { font-size: 1.05rem; }
 .brand em { font-style: normal; font-size: .72rem; color: var(--muted); letter-spacing: .02em; }
 .brand span { color: var(--green); font-size: .78rem; font-weight: 500; }
@@ -158,6 +158,7 @@ footer a { color: #fff; }
   .cats { grid-template-columns: 1fr; }
 }
 @media (max-width: 800px) {
+  .logo { width: 112px; }
   .top { flex-wrap: wrap; padding: .7rem 4vw; }
   .hero, .how, .catalog, .checkout, .about, .team, footer { padding: 2rem 4vw; }
   .team-grid { grid-template-columns: 1fr; }
