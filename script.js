@@ -1,10 +1,10 @@
 const I18N = {
   ar: {
-    navCatalog: "المنتجات", navHow: "طريقة الطلب", navAbout: "عن الشركة", navCheckout: "إتمام الطلب",
-    cart: "السلة", call: "اتصال", whatsapp: "واتساب",
-    eyebrow: "شركة تجارية — توريد جملة في المنطقة الشرقية",
+    navCatalog: "المنتجات", navHow: "طريقة الطلب", navAbout: "عن الشركة", navTeam: "التواصل", navCheckout: "إتمام الطلب",
+    cart: "السلة", call: "اتصال", whatsapp: "واتساب", map: "الموقع", openMap: "فتح الموقع على خرائط قوقل",
+    eyebrow: "RMB · ركن منتجات البركة التجارية",
     heroTitle: "توريد المشروبات والمياه والوجبات الخفيفة لمحلاتكم ومطاعمكم من الدمام.",
-    heroLede: "أسعار جملة بالكرتون. نخدم محلات التجزئة والمطاعم والتموين والكافيهات. الدفع عند الاستلام أو تحويل بنكي بعد الفاتورة.",
+    heroLede: "أسعار جملة بالكرتون من دلة الصناعية. الدفع عند الاستلام أو تحويل بنكي بعد الفاتورة.",
     browse: "عرض المنتجات", goCheckout: "إتمام الطلب",
     trust1: "للمحلات والمطاعم والتموين", trust2: "حد أدنى للطلب 500 ريال",
     trust3: "الدفع عند الاستلام أو تحويل بنكي", trust4: "فاتورة ضريبة بعد تأكيد الطلب",
@@ -17,10 +17,9 @@ const I18N = {
     how3: "أرسلوا الطلب واتساب. نأكد التوفر ونرسل فاتورة الضريبة.",
     catalogTitle: "قائمة الجملة",
     aboutTitle: "عن الشركة",
-    aboutText: "شركة طلال البركة التجارية موزّع جملة في الدمام للمنتجات سريعة الحركة: المشروبات الغازية، المياه، والشيبس. نورد بالكرتون للمحلات والمطاعم ونقاط التموين في المنطقة الشرقية، مع تأكيد التوفر قبل التوريد.",
-    about1: "توريد من الدمام حسب الاتفاق على الموعد والكمية.",
-    about2: "الدفع: عند الاستلام نقداً، أو تحويل بنكي بعد إصدار الفاتورة.",
-    about3: "للتواصل والمندوب: +966 58 201 4443",
+    aboutText: "ركن منتجات البركة التجارية (RMB) موزّع جملة في الدمام للمنتجات سريعة الحركة: المشروبات الغازية، المياه، والشيبس. مقرنا في دلة الصناعية، ونورد بالكرتون للمحلات والمطاعم ونقاط التموين.",
+    teamTitle: "التواصل والموقع",
+    waPerson: "واتساب", callPerson: "اتصال",
     checkoutTitle: "إتمام الطلب",
     checkoutHint: "بعد إرسال الطلب نأكد الكمية المتاحة ونصدر الفاتورة. الدفع عند الاستلام أو تحويل بنكي بعد الفاتورة فقط. لا يُطلب رقم بطاقة.",
     fCompany: "اسم المنشأة", fCr: "السجل التجاري / الرقم الضريبي", fContact: "اسم المسؤول",
@@ -32,11 +31,11 @@ const I18N = {
     payNote: "الدفع: عند الاستلام أو تحويل بنكي بعد الفاتورة."
   },
   en: {
-    navCatalog: "Products", navHow: "How to order", navAbout: "About", navCheckout: "Checkout",
-    cart: "Cart", call: "Call", whatsapp: "WhatsApp",
-    eyebrow: "Trading company — wholesale supply in the Eastern Province",
+    navCatalog: "Products", navHow: "How to order", navAbout: "About", navTeam: "Contact", navCheckout: "Checkout",
+    cart: "Cart", call: "Call", whatsapp: "WhatsApp", map: "Location", openMap: "Open location on Google Maps",
+    eyebrow: "RMB · Rukun Muntajat AlBarkah",
     heroTitle: "Wholesale drinks, water and snacks for shops and restaurants from Dammam.",
-    heroLede: "Carton pricing. We supply retail shops, restaurants, catering and cafes. Cash on delivery or bank transfer after invoice.",
+    heroLede: "Carton pricing from Dallah Industrial. Cash on delivery or bank transfer after invoice.",
     browse: "View products", goCheckout: "Checkout",
     trust1: "Shops, restaurants and catering", trust2: "Minimum order SAR 500",
     trust3: "COD or bank transfer", trust4: "VAT invoice after confirmation",
@@ -49,10 +48,9 @@ const I18N = {
     how3: "Send the order on WhatsApp. We confirm stock and issue a VAT invoice.",
     catalogTitle: "Wholesale list",
     aboutTitle: "About the company",
-    aboutText: "Talal Al Baraka Trading Co. is a Dammam wholesaler of fast-moving goods: soft drinks, water and chips. We supply cartons to shops, restaurants and catering points in the Eastern Province after confirming availability.",
-    about1: "Supply from Dammam by agreed time and quantity.",
-    about2: "Pay cash on delivery, or by bank transfer after the invoice is issued.",
-    about3: "Sales line: +966 58 201 4443",
+    aboutText: "Rukun Muntajat AlBarkah (RMB) is a Dammam wholesaler of fast-moving goods: soft drinks, water and chips. We operate from Dallah Industrial and supply cartons to shops, restaurants and catering.",
+    teamTitle: "Contact and location",
+    waPerson: "WhatsApp", callPerson: "Call",
     checkoutTitle: "Checkout",
     checkoutHint: "We confirm available quantity and issue the invoice. Payment is cash on delivery or bank transfer after invoice only. No card numbers are collected.",
     fCompany: "Company name", fCr: "CR / VAT number", fContact: "Contact person",
@@ -96,14 +94,32 @@ function applyLang() {
     $("search").placeholder = lang === "ar" ? "بحث عن صنف" : "Search products";
     $("footerName").textContent = lang === "ar" ? c.nameAr : c.name;
     $("footerLine").textContent = lang === "ar" ? c.cityAr : c.city;
+    if ($("placeLine")) $("placeLine").textContent = lang === "ar" ? (c.addressAr || c.cityAr) : (c.address || c.city);
     const tel = `tel:${c.phone}`;
     const wa = `https://wa.me/${c.whatsapp}`;
-    ["stripPhone", "callBtn", "footerPhone"].forEach((id) => { $(id).href = tel; });
+    ["stripPhone", "callBtn", "footerPhone"].forEach((id) => { if ($(id)) $(id).href = tel; });
     $("stripPhone").textContent = c.phoneDisplay;
     $("footerPhone").textContent = c.phoneDisplay;
     ["stripWa", "waTop", "waHero", "footerWa", "waMobile"].forEach((id) => { if ($(id)) $(id).href = wa; });
+    ["stripMaps", "placeMaps", "footerMaps"].forEach((id) => { if ($(id) && c.maps) $(id).href = c.maps; });
+    renderTeam();
   }
   if (data) { renderCategories(); renderGrid(); renderCart(); renderSummary(); }
+}
+
+function renderTeam() {
+  const box = $("teamGrid");
+  if (!box || !data?.company?.people) return;
+  box.innerHTML = data.company.people.map((p) => `
+    <article class="person">
+      <p class="role">${lang === "ar" ? p.roleAr : p.role}</p>
+      <h3>${lang === "ar" ? p.nameAr : p.name}</h3>
+      <a href="tel:${p.phone}">${p.phoneDisplay}</a>
+      <div class="hero-actions">
+        <a class="btn ghost" href="tel:${p.phone}">${t("callPerson")}</a>
+        <a class="btn primary" href="https://wa.me/${p.whatsapp}">${t("waPerson")}</a>
+      </div>
+    </article>`).join("");
 }
 
 function saveCart() { localStorage.setItem("tab-cart", JSON.stringify(cart)); }
