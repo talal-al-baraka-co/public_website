@@ -1,44 +1,70 @@
 const I18N = {
   ar: {
-    navCatalog: "المنتجات", navHow: "طريقة الطلب", navCheckout: "إتمام الطلب", cart: "السلة",
-    call: "اتصال", whatsapp: "واتساب",
-    eyebrow: "تجارة وتوزيع جملة · المنطقة الشرقية",
-    heroTitle: "شريككم لتوريد المشروبات والوجبات الخفيفة للمحلات والمطاعم.",
-    heroLede: "توريد بالكرتون من الدمام. أسعار جملة، توصيل حسب الاتفاق، والدفع عند الاستلام أو تحويل بنكي بعد الفاتورة.",
+    navCatalog: "المنتجات", navHow: "طريقة الطلب", navAbout: "عن الشركة", navCheckout: "إتمام الطلب",
+    cart: "السلة", call: "اتصال", whatsapp: "واتساب",
+    eyebrow: "شركة تجارية — توريد جملة في المنطقة الشرقية",
+    heroTitle: "توريد المشروبات والمياه والوجبات الخفيفة لمحلاتكم ومطاعمكم من الدمام.",
+    heroLede: "أسعار جملة بالكرتون. نخدم محلات التجزئة والمطاعم والتموين والكافيهات. الدفع عند الاستلام أو تحويل بنكي بعد الفاتورة.",
     browse: "عرض المنتجات", goCheckout: "إتمام الطلب",
-    trust1: "للمحلات والمطاعم والتموين", trust2: "حد أدنى للطلب 500 ريال", trust3: "الدفع عند الاستلام أو تحويل بنكي",
+    trust1: "للمحلات والمطاعم والتموين", trust2: "حد أدنى للطلب 500 ريال",
+    trust3: "الدفع عند الاستلام أو تحويل بنكي", trust4: "فاتورة ضريبة بعد تأكيد الطلب",
+    catSoda: "مشروبات غازية", catSodaSub: "كولا، بيبسي، سفن أب",
+    catWater: "مياه معدنية", catWaterSub: "330 مل و 1.5 لتر",
+    catChips: "شيبس ووجبات خفيفة", catChipsSub: "ملح، حار، ذرة",
     howTitle: "طريقة الطلب",
     how1: "اختاروا الكراتين من القائمة حسب احتياج محلكم.",
     how2: "أدخلوا بيانات المنشأة وعنوان التوصيل في الدمام.",
     how3: "أرسلوا الطلب واتساب. نأكد التوفر ونرسل فاتورة الضريبة.",
-    catalogTitle: "المنتجات المتوفرة", checkoutTitle: "إتمام الطلب",
-    checkoutHint: "بعد إرسال الطلب نأكد الكمية ونصدر الفاتورة. الدفع عند الاستلام أو تحويل بنكي.",
+    catalogTitle: "قائمة الجملة",
+    aboutTitle: "عن الشركة",
+    aboutText: "شركة طلال البركة التجارية موزّع جملة في الدمام للمنتجات سريعة الحركة: المشروبات الغازية، المياه، والشيبس. نورد بالكرتون للمحلات والمطاعم ونقاط التموين في المنطقة الشرقية، مع تأكيد التوفر قبل التوريد.",
+    about1: "توريد من الدمام حسب الاتفاق على الموعد والكمية.",
+    about2: "الدفع: عند الاستلام نقداً، أو تحويل بنكي بعد إصدار الفاتورة.",
+    about3: "للتواصل والمندوب: +966 58 201 4443",
+    checkoutTitle: "إتمام الطلب",
+    checkoutHint: "بعد إرسال الطلب نأكد الكمية المتاحة ونصدر الفاتورة. الدفع عند الاستلام أو تحويل بنكي بعد الفاتورة فقط. لا يُطلب رقم بطاقة.",
     fCompany: "اسم المنشأة", fCr: "السجل التجاري / الرقم الضريبي", fContact: "اسم المسؤول",
     fPhone: "الجوال", fAddress: "عنوان التوصيل في الدمام", fPay: "طريقة الدفع", fNotes: "ملاحظات",
     sendWa: "إرسال الطلب واتساب",
     all: "كل التصنيفات", add: "إضافة", out: "غير متوفر", min: "الحد", empty: "السلة فارغة.",
     subtotal: "المجموع", vat: "ضريبة 15%", total: "الإجمالي", minOrder: "حد أدنى للطلب",
-    payCod: "الدفع عند الاستلام", payBank: "تحويل بنكي بعد الفاتورة"
+    payCod: "الدفع عند الاستلام", payBank: "تحويل بنكي بعد الفاتورة",
+    payNote: "الدفع: عند الاستلام أو تحويل بنكي بعد الفاتورة."
   },
   en: {
-    navCatalog: "Catalog", navHow: "How to order", navCheckout: "Checkout", cart: "Cart",
-    call: "Call", whatsapp: "WhatsApp",
-    eyebrow: "Wholesale trading · Eastern Province",
-    heroTitle: "Your partner for beverages and snacks to shops and restaurants.",
-    heroLede: "Carton supply from Dammam. Cash on delivery or bank transfer after invoice.",
-    browse: "Browse products", goCheckout: "Checkout",
-    trust1: "For shops, restaurants, and catering", trust2: "Minimum order SAR 500", trust3: "COD or bank transfer",
-    howTitle: "How to order", how1: "Choose cartons from the list.", how2: "Enter company details and Dammam address.", how3: "Send the order on WhatsApp.",
-    catalogTitle: "Available products", checkoutTitle: "Checkout",
-    checkoutHint: "We confirm quantity and issue the invoice. Pay cash on delivery or by bank transfer.",
+    navCatalog: "Products", navHow: "How to order", navAbout: "About", navCheckout: "Checkout",
+    cart: "Cart", call: "Call", whatsapp: "WhatsApp",
+    eyebrow: "Trading company — wholesale supply in the Eastern Province",
+    heroTitle: "Wholesale drinks, water and snacks for shops and restaurants from Dammam.",
+    heroLede: "Carton pricing. We supply retail shops, restaurants, catering and cafes. Cash on delivery or bank transfer after invoice.",
+    browse: "View products", goCheckout: "Checkout",
+    trust1: "Shops, restaurants and catering", trust2: "Minimum order SAR 500",
+    trust3: "COD or bank transfer", trust4: "VAT invoice after confirmation",
+    catSoda: "Soft drinks", catSodaSub: "Cola, Pepsi, 7UP",
+    catWater: "Bottled water", catWaterSub: "330ml and 1.5L",
+    catChips: "Chips and snacks", catChipsSub: "Salted, chili, corn",
+    howTitle: "How to order",
+    how1: "Choose cartons from the list for your shop.",
+    how2: "Enter your company details and Dammam delivery address.",
+    how3: "Send the order on WhatsApp. We confirm stock and issue a VAT invoice.",
+    catalogTitle: "Wholesale list",
+    aboutTitle: "About the company",
+    aboutText: "Talal Al Baraka Trading Co. is a Dammam wholesaler of fast-moving goods: soft drinks, water and chips. We supply cartons to shops, restaurants and catering points in the Eastern Province after confirming availability.",
+    about1: "Supply from Dammam by agreed time and quantity.",
+    about2: "Pay cash on delivery, or by bank transfer after the invoice is issued.",
+    about3: "Sales line: +966 58 201 4443",
+    checkoutTitle: "Checkout",
+    checkoutHint: "We confirm available quantity and issue the invoice. Payment is cash on delivery or bank transfer after invoice only. No card numbers are collected.",
     fCompany: "Company name", fCr: "CR / VAT number", fContact: "Contact person",
     fPhone: "Phone", fAddress: "Delivery address in Dammam", fPay: "Payment method", fNotes: "Notes",
     sendWa: "Send order on WhatsApp",
     all: "All categories", add: "Add", out: "Out of stock", min: "Min", empty: "Cart is empty.",
     subtotal: "Subtotal", vat: "VAT 15%", total: "Total", minOrder: "Minimum order",
-    payCod: "Cash on delivery", payBank: "Bank transfer after invoice"
+    payCod: "Cash on delivery", payBank: "Bank transfer after invoice",
+    payNote: "Payment: cash on delivery or bank transfer after invoice."
   }
 };
+
 let lang = "ar";
 let data = null;
 const cart = JSON.parse(localStorage.getItem("tab-cart") || "{}");
@@ -46,31 +72,40 @@ const $ = (id) => document.getElementById(id);
 const t = (key) => I18N[lang][key];
 const productName = (p) => lang === "ar" ? p.nameAr : p.name;
 const packName = (p) => lang === "ar" ? p.packAr : p.pack;
+
 function money(n) {
   return new Intl.NumberFormat(lang === "ar" ? "ar-SA" : "en-SA", { style: "currency", currency: "SAR" }).format(n);
 }
+
 function applyLang() {
   document.documentElement.lang = lang;
   document.documentElement.dir = lang === "ar" ? "rtl" : "ltr";
   document.querySelectorAll("[data-i18n]").forEach((el) => { el.textContent = t(el.dataset.i18n); });
   $("langBtn").textContent = lang === "ar" ? "English" : "عربي";
   const pay = document.querySelector("select[name=pay]");
-  if (pay && pay.options.length >= 2) { pay.options[0].textContent = t("payCod"); pay.options[1].textContent = t("payBank"); }
+  if (pay && pay.options.length >= 2) {
+    pay.options[0].textContent = t("payCod");
+    pay.options[1].textContent = t("payBank");
+  }
   if (data) {
     const c = data.company;
     $("companyName").textContent = lang === "ar" ? c.nameAr : c.name;
+    $("companyNameEn").textContent = lang === "ar" ? c.name : c.nameAr;
     $("companyTag").textContent = lang === "ar" ? c.taglineAr : c.tagline;
     $("stripCity").textContent = lang === "ar" ? c.cityAr : c.city;
-    $("search").placeholder = lang === "ar" ? "بحث" : "Search";
+    $("search").placeholder = lang === "ar" ? "بحث عن صنف" : "Search products";
+    $("footerName").textContent = lang === "ar" ? c.nameAr : c.name;
+    $("footerLine").textContent = lang === "ar" ? c.cityAr : c.city;
     const tel = `tel:${c.phone}`;
     const wa = `https://wa.me/${c.whatsapp}`;
-    $("stripPhone").href = tel; $("stripPhone").textContent = c.phoneDisplay;
-    $("callBtn").href = tel; $("waHero").href = wa;
-    $("footerPhone").href = tel; $("footerPhone").textContent = c.phoneDisplay; $("footerWa").href = wa;
-    $("footerLine").textContent = `${lang === "ar" ? c.nameAr : c.name} · ${lang === "ar" ? c.cityAr : c.city}`;
-    renderCategories(); renderGrid(); renderCart(); renderSummary();
+    ["stripPhone", "callBtn", "footerPhone"].forEach((id) => { $(id).href = tel; });
+    $("stripPhone").textContent = c.phoneDisplay;
+    $("footerPhone").textContent = c.phoneDisplay;
+    ["stripWa", "waTop", "waHero", "footerWa", "waMobile"].forEach((id) => { if ($(id)) $(id).href = wa; });
   }
+  if (data) { renderCategories(); renderGrid(); renderCart(); renderSummary(); }
 }
+
 function saveCart() { localStorage.setItem("tab-cart", JSON.stringify(cart)); }
 function cartItems() {
   if (!data) return [];
@@ -92,15 +127,35 @@ function addToCart(id, qty) {
   saveCart(); renderCart(); renderSummary();
 }
 function renderCategories() {
-  const select = $("category"); const current = select.value;
+  const select = $("category");
+  const current = select.value;
   select.innerHTML = `<option value="">${t("all")}</option>`;
   data.categories.forEach((c) => {
-    const opt = document.createElement("option"); opt.value = c.id;
-    opt.textContent = lang === "ar" ? c.nameAr : c.name; select.appendChild(opt);
+    const opt = document.createElement("option");
+    opt.value = c.id;
+    opt.textContent = lang === "ar" ? c.nameAr : c.name;
+    select.appendChild(opt);
   });
   if ([...select.options].some((o) => o.value === current)) select.value = current;
 }
-function imgSrc(p) { return p.image || `images/${p.id}.jpg`; }
+
+function imageCandidates(p) {
+  const listed = p.image ? [p.image] : [];
+  return [`images/${p.id}.jpg`, `images/${p.id}.jpeg`, `images/${p.id}.png`, `images/${p.id}.webp`, `images/${p.id}.svg`, ...listed];
+}
+function bindImageFallback(img, paths) {
+  let i = 0;
+  img.src = paths[0];
+  img.onerror = () => {
+    i += 1;
+    if (i < paths.length) img.src = paths[i];
+    else {
+      img.onerror = null;
+      img.remove();
+    }
+  };
+}
+
 function renderGrid() {
   const q = $("search").value.trim().toLowerCase();
   const cat = $("category").value;
@@ -110,7 +165,7 @@ function renderGrid() {
   });
   $("grid").innerHTML = list.map((p) => `
     <article class="card">
-      <img src="${imgSrc(p)}" alt="${productName(p)}" onerror="this.style.display='none'">
+      <div class="pic"><img alt="${productName(p)}" data-img="${p.id}"></div>
       <div class="body">
         <h3>${productName(p)}</h3>
         <p class="meta">${packName(p)}</p>
@@ -119,7 +174,12 @@ function renderGrid() {
         ${p.inStock ? `<div class="row"><input type="number" min="${p.minQty}" value="${p.minQty}" id="qty-${p.id}"><button class="btn primary" data-add="${p.id}">${t("add")}</button></div>` : `<p class="oos">${t("out")}</p>`}
       </div>
     </article>`).join("");
+  $("grid").querySelectorAll("img[data-img]").forEach((img) => {
+    const p = data.products.find((x) => x.id === img.dataset.img);
+    if (p) bindImageFallback(img, imageCandidates(p));
+  });
 }
+
 function renderCart() {
   const { items, total } = totals();
   $("cartCount").textContent = items.reduce((n, i) => n + i.qty, 0);
@@ -140,7 +200,19 @@ function orderText(form) {
   const fd = new FormData(form);
   const { items, subtotal, vat, total } = totals();
   const lines = items.map(({ product, qty }) => `- ${product.name} / ${product.nameAr} | ${qty} x ${product.price.toFixed(2)} SAR`);
-  return [`طلب جملة — ${data.company.nameAr}`, `المنشأة: ${fd.get("company")}`, `السجل/الضريبة: ${fd.get("cr") || "-"}`, `المسؤول: ${fd.get("contact")} | ${fd.get("phone")}`, `العنوان: ${fd.get("address")}`, `الدفع: ${fd.get("pay")}`, `ملاحظات: ${fd.get("notes") || "-"}`, "", "الأصناف:", ...lines, "", `المجموع: ${subtotal.toFixed(2)} SAR`, `الضريبة 15%: ${vat.toFixed(2)} SAR`, `الإجمالي: ${total.toFixed(2)} SAR`].join("\n");
+  return [
+    `طلب جملة — ${data.company.nameAr}`,
+    `المنشأة: ${fd.get("company")}`,
+    `السجل/الضريبة: ${fd.get("cr") || "-"}`,
+    `المسؤول: ${fd.get("contact")} | ${fd.get("phone")}`,
+    `العنوان: ${fd.get("address")}`,
+    `الدفع: ${fd.get("pay")}`,
+    `ملاحظات: ${fd.get("notes") || "-"}`,
+    "", "الأصناف:", ...lines, "",
+    `المجموع: ${subtotal.toFixed(2)} SAR`,
+    `الضريبة 15%: ${vat.toFixed(2)} SAR`,
+    `الإجمالي: ${total.toFixed(2)} SAR`
+  ].join("\n");
 }
 function validateOrder() {
   const { subtotal } = totals();
@@ -148,23 +220,36 @@ function validateOrder() {
   if (subtotal < data.company.minOrderSAR) { alert(`${t("minOrder")} ${money(data.company.minOrderSAR)}`); return false; }
   return true;
 }
+
 $("langBtn").addEventListener("click", () => { lang = lang === "ar" ? "en" : "ar"; applyLang(); });
 $("cartBtn").addEventListener("click", () => { $("drawer").hidden = false; });
 $("cartBtnMobile")?.addEventListener("click", () => { $("drawer").hidden = false; });
 $("closeCart").addEventListener("click", () => { $("drawer").hidden = true; });
 $("toCheckout").addEventListener("click", () => { $("drawer").hidden = true; });
 $("grid").addEventListener("click", (e) => {
-  const id = e.target.dataset.add; if (!id) return;
+  const id = e.target.dataset.add;
+  if (!id) return;
   addToCart(id, Number(document.getElementById(`qty-${id}`).value || 1));
 });
 $("cartLines").addEventListener("click", (e) => {
-  const id = e.target.dataset.remove; if (!id) return;
+  const id = e.target.dataset.remove;
+  if (!id) return;
   delete cart[id]; saveCart(); renderCart(); renderSummary();
 });
 $("search").addEventListener("input", renderGrid);
 $("category").addEventListener("change", renderGrid);
+document.querySelectorAll(".cats [data-cat]").forEach((a) => {
+  a.addEventListener("click", (e) => {
+    e.preventDefault();
+    $("category").value = a.dataset.cat;
+    renderGrid();
+    document.getElementById("catalog").scrollIntoView({ behavior: "smooth" });
+  });
+});
 $("orderForm").addEventListener("submit", (e) => {
-  e.preventDefault(); if (!validateOrder()) return;
+  e.preventDefault();
+  if (!validateOrder()) return;
   window.open(`https://wa.me/${data.company.whatsapp}?text=${encodeURIComponent(orderText(e.target))}`, "_blank");
 });
+
 fetch("products.json").then((r) => r.json()).then((json) => { data = json; applyLang(); });
