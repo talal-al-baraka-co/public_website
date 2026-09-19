@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#1f6b4a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>Talal Al Baraka Co. — Wholesale Dammam</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <strong id="companyName">Talal Al Baraka Co.</strong>
+      <span id="companyCity">Dammam, Saudi Arabia</span>
+    </div>
+    <nav>
+      <a href="#catalog" data-i18n="navCatalog">Catalog</a>
+      <a href="#how" data-i18n="navHow">How to order</a>
+      <a href="#checkout" data-i18n="navCheckout">Checkout</a>
+    </nav>
+    <div class="top-actions">
+      <button type="button" class="lang" id="langBtn">عربي</button>
+      <button type="button" class="cart-btn" id="cartBtn">
+        <span data-i18n="cart">Cart</span>
+        <b id="cartCount">0</b>
+      </button>
+    </div>
+  </header>
+  <section class="hero">
+    <p class="eyebrow" data-i18n="eyebrow">B2B wholesale · Eastern Province</p>
+    <h1 data-i18n="heroTitle">Soft drinks, water, and snacks for shops and restaurants.</h1>
+    <p class="lede" data-i18n="heroLede">Order by the carton from Dammam. Update prices in one file. Buyers pick items, send an order, and pay by invoice or bank transfer.</p>
+    <div class="hero-actions">
+      <a href="#catalog" class="btn primary" data-i18n="browse">Browse catalog</a>
+      <a href="#checkout" class="btn ghost" data-i18n="goCheckout">Go to checkout</a>
+    </div>
+  </section>
+  <section id="how" class="how">
+    <h2 data-i18n="howTitle">How it works</h2>
+    <ol>
+      <li data-i18n="how1">Choose cartons from the catalog. Minimum quantities are listed on each item.</li>
+      <li data-i18n="how2">Enter your company details at checkout. No card numbers are collected on this site.</li>
+      <li data-i18n="how3">Send the order by WhatsApp or email. We confirm stock, VAT invoice, and delivery in Dammam.</li>
+    </ol>
+  </section>
+  <section id="catalog" class="catalog">
+    <div class="catalog-head">
+      <h2 data-i18n="catalogTitle">Available products</h2>
+      <div class="filters">
+        <input type="search" id="search" placeholder="Search products">
+        <select id="category"></select>
+      </div>
+    </div>
+    <p class="hint" data-i18n="updateHint">To change prices or add items, edit products.json and refresh. No code changes needed.</p>
+    <div id="grid" class="grid"></div>
+  </section>
+  <section id="checkout" class="checkout">
+    <h2 data-i18n="checkoutTitle">Checkout</h2>
+    <p class="hint" data-i18n="checkoutHint">This is a secure order form: HTTPS when hosted, no card data stored here. Payment is by bank transfer or invoice after we confirm the order.</p>
+    <div class="checkout-grid">
+      <form id="orderForm">
+        <label><span data-i18n="fCompany">Company name</span><input name="company" required></label>
+        <label><span data-i18n="fCr">CR / VAT number</span><input name="cr"></label>
+        <label><span data-i18n="fContact">Contact person</span><input name="contact" required></label>
+        <label><span data-i18n="fPhone">Phone</span><input name="phone" type="tel" required></label>
+        <label><span data-i18n="fEmail">Email</span><input name="email" type="email"></label>
+        <label class="full"><span data-i18n="fAddress">Delivery address (Dammam area)</span><textarea name="address" rows="3" required></textarea></label>
+        <label><span data-i18n="fPay">Payment method</span>
+          <select name="pay">
+            <option value="Bank transfer">Bank transfer after invoice</option>
+            <option value="Cash on delivery">Cash on delivery</option>
+            <option value="Account terms">Existing account terms</option>
+          </select>
+        </label>
+        <label class="full"><span data-i18n="fNotes">Notes</span><textarea name="notes" rows="2"></textarea></label>
+        <p class="min-note" id="minNote"></p>
+        <div class="form-actions">
+          <button type="submit" class="btn primary" data-i18n="sendWa">Send order on WhatsApp</button>
+          <button type="button" class="btn ghost" id="emailBtn" data-i18n="sendEmail">Send by email</button>
+        </div>
+      </form>
+      <aside class="summary" id="summary"></aside>
+    </div>
+  </section>
+  <div class="drawer" id="drawer" hidden>
+    <div class="drawer-panel">
+      <div class="drawer-head">
+        <h3 data-i18n="cart">Cart</h3>
+        <button type="button" id="closeCart">×</button>
+      </div>
+      <div id="cartLines"></div>
+      <a href="#checkout" class="btn primary full" id="toCheckout" data-i18n="goCheckout">Go to checkout</a>
+    </div>
+  </div>
+  <nav class="mobile-bar" aria-label="Mobile">
+    <a href="#catalog" data-i18n="navCatalog">Catalog</a>
+    <button type="button" id="cartBtnMobile" data-i18n="cart">Cart</button>
+    <a href="#checkout" data-i18n="navCheckout">Checkout</a>
+  </nav>
+  <footer>
+    <p id="footerLine"></p>
+    <p data-i18n="footerNote">Prices are wholesale, exclude VAT unless stated, and can change.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
